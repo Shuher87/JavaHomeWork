@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 /**
  * this program checks year is leap or not
  * 
- * @author »ль€
+ * @author Ilya
  *
  */
 
@@ -20,19 +20,19 @@ public class LeapYear {
 
 		BufferedReader reader = new BufferedReader(new InputStreamReader(
 				System.in));
-		System.out.println("¬ведите год");
+		System.out.println("Enter year");
 		int year = Integer.parseInt(reader.readLine());
 
 		if (year % 4 != 0 || year % 100 == 0) {
 			if (year % 400 != 0) {
 
-				System.out.println(year + " год невисокосный");
+				System.out.println(year + " year not leap");
 			}
 		}
 		if (year % 4 == 0) {
 			if (year % 400 == 0 | year % 100 != 0) {
 
-				System.out.println(year + " год високосный");
+				System.out.println(year + " leap-year");
 			}
 		}
 	}

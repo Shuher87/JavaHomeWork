@@ -5,10 +5,11 @@ package HomeWork2;
  * symbols in the text and divides the text in half. After division two new
  * String variables have to turn out.
  * 
- * @author Илья
+ * @author Ilya
  */
+
 public class StringCount {
-	static String str = "Витя, буксони";
+	static String str = "Vitya, where are you?";
 
 	public static void main(String args[]) {
 

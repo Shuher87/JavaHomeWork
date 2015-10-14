@@ -3,7 +3,7 @@ package HomeWork2;
 /**
  * This program displays values of function
  * 
- * @author Илья
+ * @author Ilya
  *
  */
 

@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 /**
  * this program calculates a factorial of the number entered from the keyboard.
  * 
- * @author Илья
+ * @author Ilya
  *
  */
 public class FactorialN {

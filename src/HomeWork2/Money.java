@@ -5,10 +5,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * This program enters a number from the keyboard and writes word У рубльФ in
+ * This program enters a number from the keyboard and writes word У rublФ in
  * right form.
  * 
- * @author »ль€
+ * @author Ilya
  *
  */
 
@@ -23,23 +23,23 @@ public class Money {
 
 		if (i % 10 == 1) {
 			if (i % 100 > 10 & i % 100 < 20) {
-				System.out.println(i + " рублей");
+				System.out.println(i + " rublej");
 			} else {
-				System.out.println(i + " рубль");
+				System.out.println(i + " rubl");
 			}
 		}
 		if (i % 10 > 1 & i % 10 < 5) {
 			if (i % 100 > 10 & i % 100 < 20) {
-				System.out.println(i + " рублей");
+				System.out.println(i + " rublej");
 			} else {
-				System.out.println(i + " рубл€");
+				System.out.println(i + " rublya");
 			}
 		}
 		if (i % 10 > 4 & i % 10 < 10) {
-			System.out.println(i + " рублей");
+			System.out.println(i + " rublej");
 		}
 		if (i % 10 == 0) {
-			System.out.println(i + " рублей");
+			System.out.println(i + " rublej");
 		}
 
 	}

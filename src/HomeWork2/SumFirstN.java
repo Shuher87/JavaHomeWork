@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 /**
  * This program calculates the sum of the first n of members of a row
  * 
- * @author Илья
+ * @author Ilya
  *
  */
 

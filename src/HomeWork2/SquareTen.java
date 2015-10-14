@@ -4,7 +4,7 @@ package HomeWork2;
  * this program outputs the table of squares of the first ten whole positive
  * numbers from 0 to 10
  * 
- * @author Илья
+ * @author Ilya
  *
  */
 

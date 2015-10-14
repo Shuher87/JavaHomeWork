@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 /**
  * This program divides two numbers and returns result
  * 
- * @author Илья
+ * @author Ilya
  *
  */
 

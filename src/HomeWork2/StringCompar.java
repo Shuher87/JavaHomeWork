@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 /**
  * this program enters two numbers from the keyboard and then compares them
  * 
- * @author Илья
+ * @author Ilya
  *
  */
 public class StringCompar {
@@ -19,13 +19,13 @@ public class StringCompar {
 		int numberOne = Integer.parseInt(reader.readLine());
 		int numberTwo = Integer.parseInt(reader.readLine());
 		if (numberOne > numberTwo) {
-			System.out.println(numberOne + " больше " + numberTwo);
+			System.out.println(numberOne + " is more than " + numberTwo);
 		}
 		if (numberOne < numberTwo) {
-			System.out.println(numberOne + " меньше " + numberTwo);
+			System.out.println(numberOne + " is less than " + numberTwo);
 		}
 		if (numberOne == numberTwo) {
-			System.out.println("число " + numberOne + " равно " + " числу "
+			System.out.println("number " + numberOne + " is equal " + " number "
 					+ numberTwo);
 		}
 	}

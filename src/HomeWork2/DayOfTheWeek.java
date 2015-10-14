@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
  * This program asks number of a day of the week and returns a name of a day of
  * the week.
  * 
- * @author »ль€
+ * @author Ilya
  *
  */
 
@@ -16,7 +16,7 @@ public class DayOfTheWeek {
 
 	public static void main(String[] args) throws NumberFormatException,
 			IOException {
-		System.out.println("¬ведите день недели");
+		System.out.println("Enter a day of the week");
 		BufferedReader reader = new BufferedReader(new InputStreamReader(
 				System.in));
 		int day = Integer.parseInt(reader.readLine());
@@ -43,7 +43,7 @@ public class DayOfTheWeek {
 			System.out.println("Sunday");
 			break;
 		default:
-			System.out.println("такого дн€ недели не существует");
+			System.out.println("such day of the week doesn't exist");
 
 		}
 

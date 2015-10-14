@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
  * This program defines your optimal weight and gives you an advice about your
  * real weight.
  * 
- * @author Илья
+ * @author Ilya
  *
  */
 
@@ -18,19 +18,19 @@ public class Weight {
 			IOException {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(
 				System.in));
-		System.out.println("Введите ваш вес в кг");
+		System.out.println("Enter your weight into kg");
 		int yourRealWeight = Integer.parseInt(reader.readLine());
-		System.out.println("Введите ваш рост в см");
+		System.out.println("Enter your growth into cm");
 		int yourHeight = Integer.parseInt(reader.readLine());
 		int yourOptimalWeight = yourHeight - 100;
 		if ((yourOptimalWeight - yourRealWeight) == 0) {
-			System.out.println("У вас оптимальный вес");
+			System.out.println("You have an optimum weight");
 		}
 		if ((yourOptimalWeight - yourRealWeight) > 0) {
-			System.out.println("Вам нужно потолстеть, дрыщь ты этакий");
+			System.out.println("You need to grow stout");
 		}
 		if ((yourOptimalWeight - yourRealWeight) < 0) {
-			System.out.println("Вам нужно срочно похудеть, пузанчик");
+			System.out.println("You need to lose weight");
 		}
 	}
 
