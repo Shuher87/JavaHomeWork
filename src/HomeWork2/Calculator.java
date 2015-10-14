@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
  * It program enters two numbers from the keyboard and calculates the sum or
  * division of these numbers
  * 
- * @author Илья
+ * @author Ilya
  *
  */
 
@@ -22,17 +22,17 @@ public class Calculator {
 
 		while (reader != null) {
 
-			System.out.println("Введите первое число");
+			System.out.println("Enter the first number");
 			String s1 = reader.readLine();
 			double a = Double.parseDouble(s1);
 
-			System.out.println("Введите второе число");
+			System.out.println("Enter the second number");
 			String s2 = reader.readLine();
 			double b = Double.parseDouble(s2);
 
-			System.out.println("Чтобы сложить числа нажмите +");
-			System.out.println("Чтобы разделить числа нажмите /");
-			System.out.println("Чтобы выйти из программы нажмите q");
+			System.out.println("To get the sum of numbers press +");
+			System.out.println("To divide numbers press /");
+			System.out.println("to leave the program press q");
 			String k = reader.readLine();
 
 			if (k.equals("+")) {
