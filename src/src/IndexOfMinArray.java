@@ -2,7 +2,7 @@
  * This program finds the minimum element from the array and an index of this
  * element
  * 
- * @author Илья
+ * @author Ilya
  *
  */
 

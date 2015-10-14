@@ -3,7 +3,7 @@ import java.io.BufferedReader;
 /**
  * This program declares  and initializes array from 15 elements
  * 
- *  @author Илья
+ *  @author Ilya
  */
 
 import java.io.IOException;

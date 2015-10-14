@@ -2,7 +2,7 @@
  * This program creates the array from 10 float variables and displays the
  * array. Then calculates an arithmetic average value.
  * 
- * @author Илья
+ * @author Ilya
  *
  */
 

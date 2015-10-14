@@ -2,7 +2,7 @@
  * This program creates the array from 10 integer variables and calculates the
  * maximum and minimum value of the array.
  * 
- * @author Илья
+ * @author Ilya
  *
  */
 
